@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with our friendly team! You can find our contact information or schedule a  meet n' greet to visit one of our adoptable pets.">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <a href="index.html"><span style="padding-right: 16px"><img
+                        src="./assets/animal-shelter.png" alt="Littletown Animal Shelter logo"></span>Littletown Animal Shelter</a>
+        </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="cats.html">Available Cats</a></li>
+            <li><a href="dogs.html">Available Dogs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div id="wrapper">
+
+        <main>
+            <h2>Contact Us</h2>
+
+            <h3>For questions, comments, or donation opportunities:</h3>
+
+            <div>
+                <div class="address-container">
+                    Littletown Animal Shelter<br>
+                    123 Rescue Road<br>
+                    Littletown, IN 46789 <br>
+                    <a id="mobile" href="tel:888-555-5555">888-555-5555</a>
+                </div>
+            </div>
+
+            <h3>Interested in adopting? Fill out a Meet n' Greet application!</h3>
+
+            <p>Required fields are marked with an asterisk*.</p>
+            <div class="form-container">
+
+                <form onsubmit="alert('Form submitted!');">
+
+                    <label for="myFName">*First Name:</label>
+                    <input type="text" id="myFName" name="FirstName" required>
+
+                    <label for="myLName">*Last Name:</label>
+                    <input type="text" id="myLName" name="LastName" required>
+
+                    <label for="myAddress">Address:</label>
+                    <input type="text" id="myAddress" name="Address">
+
+
+                    <label for="myPetName">*Pet Name:</label>
+                    <input type="text" id="myPetName" name="PetName" required>
+
+                    <label for="myPetType">*Pet Type:</label>
+                    <input type="text" id="myPetType" name="PetType" required>
+
+                    <label for="myEmail">*E-mail:</label>
+                    <input type="email" id="myEmail" name="E-mail" required>
+
+                    <label for="myPhone">*Phone:</label>
+                    <input type="text" id="myPhone" name="Phone" required>
+
+                    <label for="myComments">Comments:</label>
+                    <textarea id="myComments" name="Comments" rows="2" cols="20"></textarea>
+
+                    <input type="submit" value="Submit" id="submit">
+
+                </form>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Pet Type</th>
+                            <th>Adoption Fee</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text">Adult Cat</td>
+                            <td class="text">$75</td>
+                        </tr>
+                        <tr>
+                            <td class="text">Kitten</td>
+                            <td class="text">$100</td>
+                        </tr>
+                        <tr>
+                            <td class="text">Adult Dog</td>
+                            <td class="text">$150</td>
+                        </tr>
+                        <tr>
+                            <td class="text">Puppy</td>
+                            <td class="text">$250</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Thank you for considering one of our rescues.
+                <br>
+                We appreciate your interest and will be in touch with you soon.
+            </p>
+        </main>
+
+        <hr/>
+
+        <footer>
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License"
+                    style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png"/></a><br/>This work
+            is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+                Attribution 4.0 International License</a>.
+            <br>
+            Copyright &copy; 2023 Littletown Animal Shelter
+            <br>
+            <a href="mailto:bortizcseh@britneyortizcseh.com">bortizcseh@britneyortizcseh.com</a>
+        </footer>
+    </div>
+</body>
+
+</html>
